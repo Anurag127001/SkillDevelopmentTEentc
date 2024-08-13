@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center; /* Center text inside the container */
+}
+
+header h1 {
+    color: #333;
+}
+
+.content {
+    padding: 10px;
+}
+
+.collage-frame {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin: 0 auto; /* Center the frame horizontally */
+}
+
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center images horizontally */
+}
+
+.collage img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
