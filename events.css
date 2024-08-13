@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0073b7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    padding: 20px;
+}
+
+.post {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align text and inline elements */
+}
+
+.post h2 {
+    color: #0073b7;
+}
+
+.post img, .post video {
+    max-width: 30%; /* Adjust to fit the content area */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap: 10px; /* Space between the images */
+}
+
+.image-gallery img {
+    max-width: 30%; /* Adjust based on how much space you want each image to take */
+    height: auto;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #0073b7;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
