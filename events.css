@@ -38,7 +38,7 @@ main {
 }
 
 .post img, .post video {
-    max-width: 50%; /* Adjust to fit the content area */
+    max-width: 80%; /* Adjust to fit the content area */
     height: auto;
     border-radius: 5px;
     margin-bottom: 20px;
