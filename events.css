@@ -38,7 +38,7 @@ main {
 }
 
 .post img, .post video {
-    max-width: 80%; /* Adjust to fit the content area */
+    max-width: 40%; /* Adjust to fit the content area */
     height: auto;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -63,6 +63,39 @@ main {
 
 .post p {
     margin: 10px 0;
+}
+
+.collage-frame {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin: 0 auto; /* Center the frame horizontally */
+}
+
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center images horizontally */
+}
+
+.collage img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.collage img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
 footer {
