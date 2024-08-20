@@ -40,12 +40,14 @@ main {
 .post img, .post video {
     max-width: 40%; /* Adjust to fit the content area */
     height: auto;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-bottom: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    object-fit: contain;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
 .image-gallery {
@@ -94,10 +96,14 @@ main {
 
 }
 .collage img:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
+img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
 footer {
     background-color: #0073b7;
     color: #fff;
